@@ -6,3 +6,15 @@
 
 
 ## Pembagian Subnet
+
+| Subnet | Rute | Jumlah IP | Netmask |
+| ------ | ---- | --------- | ------- |
+|   A1   | Aura - Cloud0 | 2 | /30 |
+|   A2   | Aura - Cloud0 | 2 | /30 |
+|   A3   | Aura - Cloud0 | 2 | /30 |
+|   A4   | Aura - Cloud0 | 2 | /30 |
+|   A5   | Aura - Cloud0 | 2 | /30 |
+|   A1   | Aura - Cloud0 | 2 | /30 |
+|   A1   | Aura - Cloud0 | 2 | /30 |
+|   A1   | Aura - Cloud0 | 2 | /30 |
+|   A1   | Aura - Cloud0 | 2 | /30 |
