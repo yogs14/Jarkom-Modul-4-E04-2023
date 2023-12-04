@@ -31,4 +31,13 @@
 |   A20   | Eisen - Lugner | 2 | /30 |
 |   A21   | Aura - Eisenn | 2 | /30 |
 | --- | --- | --- | --- |
-| Total | 999 |
+| Total |  | #### | /19 |
+
+
+## Penurunan VLSM Tree
+![VLSM Tree Fix](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/1cbc2cf7-ff4f-4f77-9a7c-879080e59c9a)
+
+
+## Hasil Pembagian IP per Node
+![Screenshot 2023-12-04 140128](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/317a8ef5-74e2-4bcf-9993-5eb43e3a8925)
+
