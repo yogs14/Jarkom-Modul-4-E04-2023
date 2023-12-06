@@ -94,3 +94,33 @@
 |   A21   | Lugner | 192.208.24.162 | 255.255.255.252 | /30 |
 |   A22   | Aura | 192.208.24.165 | 255.255.255.252 | /30 |
 |   A22   | Eisen | 192.208.24.166 | 255.255.255.252 | /30 |
+
+## Assigment pada CPT
+### Setelan IP
+Kita masukkan masing-masing IP pada tiap host seperti yang ada pada AppetitRegion di bawah ini:
+![appetitIP](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/71a6db26-3121-44f8-bf94-94d7d92e504d)
+
+Selanjutnya, kita lakukan _assign_ gateway yang akan menjadi jalur keluar host sesuai router yang berada tepat pada host. Misalkan pada Appetitregion maka gateway nya adalah Router Fern
+![appetitgateway](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/ce650dd9-48ae-4cf0-b278-3765e74776eb)
+Lakukan langkah yang sama pada tiap host atau end-system lainnya seperti, Sein, TurkRegion, dst.
+
+### Setelan Routing
+Perutean bisa dimulai dari router yang langsung mengenai host atau end-system, misal pada Router Fern:
+![routingFern](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/54f21fab-5b4d-4b77-b38d-324e19711bcf)
+
+karena Fern berada dekat host maka dia di setel untuk mengambil semua pesan dan diarahkan menuju next hop
+
+Selanjutnya, pada Flamme:
+![RoutingFlamme](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/d016c65e-e673-45cd-94b8-de093ddaddbe)
+
+karena pada Flamme pada hierarkinya menaungi 3 subnet maka arahkan ketiga subnet tersebut menuju nexthop.
+
+Lakukan langkah yang sama pada router selanjutnya yakni Frieren, klasifikasikan setiap subnet yang menaungi host dan arahkan ke next hop:
+![RoutingFrieren](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/df5d533d-f3f2-4fd3-935e-1bf01fb4b995)
+
+karena pada Frieren harus mengarahkan 3 subnet sebelumnya dan 1 subnet baru yang berada di dekatnya maka arahkan subnet yang lama sama seperti langkah sebelumnya dan subnet yang baru ambil semua dan arahkan ke next hop yang ada di depan Frieren sendiri.
+
+Terakhir, pada Aura yang mana merupakan router yang langsung terhubung ke internet, maka klasifikasikan semua subnet dari semua jalur dan arahkan masing-masing sesuai arah masuk port dari Aura sendiri:
+![RoutingAura](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/9c138f8e-80bd-45c6-aac3-e71ec0318ee5)
+
+Lakukan routing pada sisa router lainnya sama seperti logika pada langkah diatas!
