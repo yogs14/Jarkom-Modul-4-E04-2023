@@ -6,7 +6,8 @@
 
 
 ## Pembagian Subnet
-*ADA GAMBAR DISINI
+![Screenshot 2023-12-06 180947](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/116f359b-8c77-4699-9613-ffada55e6b95)
+
 
 | Subnet | Rute | Jumlah IP | Netmask |
 | ------ | ---- | --------- | ------- |
