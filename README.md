@@ -4,10 +4,11 @@
 1. Yoga Firman Syahputra (5025221212)
 2. Vidiawan Nabiel Arrasyid (5025221231)
 
-
-## Pembagian Subnet
+## VLSM (Variable Length Subnet Masking)
+### Pembagian Subnet
 ![topologi fix](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/2df20c47-caec-4f27-809f-df5d2eb4dff9)
 
+Kalkulasi jumlah alamat IP yang dibutuhkan oleh tiap subnet dan tentukan netmask berdasarkan jumlah IP yang dibutuhkan.
 
 | Subnet | Rute | Jumlah IP | Netmask |
 | ------ | ---- | --------- | ------- |
@@ -37,8 +38,12 @@
 
 
 ## Penurunan VLSM Tree
+
+Subnet terbesar yang terbentuk memiliki NID 192.208.0.0 dengan netmask /19 sehingga pembagian IP berdasarkan NID dan netmask dihitung sesuai dengan pohon berikut.
+
 ![VLSM Tree Fix lo ya](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/9208d015-6240-48ea-a3b0-0f78ea1a55e2)
 
+Pada VLSM ini diturunkan sesuai dengan length atasnya sehingga ketika /19 akan diturunkan menjadi /20, dan pembagian IP-nya mengikuti tabel di atas. Kemudian jika ada subnet yang bisa di_assign_, maka kita langsung meng_assign_. Hal ini dilakukan berulang-ulang sampai semua subnet selesai di _assign_.
 
 ## Hasil Pembagian IP per Node
 ![PEMETAAN FIX LO YA](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/3fa2862f-b76e-44ba-8f90-a4da2c8fb02d)
