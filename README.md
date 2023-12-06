@@ -6,7 +6,7 @@
 
 
 ## Pembagian Subnet
-![Screenshot 2023-12-06 180947](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/116f359b-8c77-4699-9613-ffada55e6b95)
+![topologi fix](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/2df20c47-caec-4f27-809f-df5d2eb4dff9)
 
 
 | Subnet | Rute | Jumlah IP | Netmask |
@@ -14,15 +14,15 @@
 |   A1   | Aura - Cloud0 | 2 | /30 |
 |   A2   | Frieren - Switch5- LakeKorridor | 26 | /27 |
 |   A3   | Flamme - Switch8 - RohrRoad | 1002 | /22 |
-|   A4   | Fern - Switch9 - AppetitRegion - LaubHills | 1024 | /21 |
+|   A4   | Fern - Switch9 - AppetitRegion - Switch9 - LaubHills | 1024 | /21 |
 |   A5   | Lugner - Switch1 - TurkRegion | 1002 | /22 |
 |   A6   | Lugner - Switch0 - GrobeForest | 252 | /24 |
-|   A7   | Heiter - Switch6 - Sein - RiegelCanyon | 513 | /22 |
+|   A7   | Heiter - Switch6 - Sein - Switch6 - RiegelCanyon | 513 | /22 |
 |   A8   | Linie - Switch11 - GranzChannel | 256 | /23 |
-|   A9   | Denken - Switch2 - RoyalCapital - WilleRegion | 128 | /24 |
+|   A9   | Denken - Switch2 - RoyalCapital - Switch2 - WilleRegion | 128 | /24 |
 |   A10   | Lawine - Switch7 - BredtRegion | 31 | /26 |
 |   A11   | Himmel - Switch10 - SchwerMountains | 7 | /28 |
-|   A12   | Eisen - Switch4 - Richter - Revolte | 4 | /29 |
+|   A12   | Eisen - Switch4 - Richter - Switch4 - Revolte | 4 | /29 |
 |   A13   | Eisen - Switch3 - Stark | 3 | /29 |
 |   A14   | Flamme - Fern | 2 | /30 |
 |   A15   | Flamme - Himmel | 2 | /30 |
