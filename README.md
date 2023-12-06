@@ -48,7 +48,7 @@ Pada VLSM ini diturunkan sesuai dengan length atasnya sehingga ketika /19 akan d
 ## Hasil Pembagian IP per Node
 ![PEMETAAN FIX LO YA](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/3fa2862f-b76e-44ba-8f90-a4da2c8fb02d)
 
-
+Klasifikan masing-masing host menurut tabel diatas dan bisa diketahui bahwa subnet dari tiap-tiap IP adalah IP awal dari subnet -1 (dikurangi satu):
 | Subnet | Node | IP | Subnet Mask | Length |
 | ------ | ---- | -- | ----------- | ------ |
 |   A1   | Aura | 192.208.24.129 | 255.255.255.252 | /30 |
@@ -135,3 +135,7 @@ Karena kita sudah melakukan routing banyak di Frieren, Aura akan bertugas untuk 
 ## VLSM Routing Check
 https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/9d4b3708-390c-47aa-9a24-7ac7c5fe49af
 
+#### Kendala:
+1. Cisco Packet Tracker yang kurang stabil menyebabkan pengecekan _routing_ menjadi sedikit sulit
+2. Isi dari Modul 4 yang kurang menggambarkan mekanisme _routing_ secara komprehensif sampai pada tahap akhir membuat kebingungan yang memakan waktu
+3. Asisten yang kurang jelas dalam memaparkan mekanisme _routing_ saat sesi lab karena memakai topologi yang sudah jadi membuat isi dari modul tidak memiliki penjabaran yang lebih luas
