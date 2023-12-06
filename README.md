@@ -124,3 +124,9 @@ Terakhir, pada Aura yang mana merupakan router yang langsung terhubung ke intern
 ![RoutingAura](https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/9c138f8e-80bd-45c6-aac3-e71ec0318ee5)
 
 Lakukan routing pada sisa router lainnya sama seperti logika pada langkah diatas!
+Karena kita sudah melakukan routing banyak di Frieren, Aura akan bertugas untuk mensortir request yang masuk dan mengarahkan antara ke Frieren atau router lainnya yang berada di dekatnya.
+
+
+## VLSM Routing Check
+https://github.com/yogs14/Jarkom-Modul-4-E04-2023/assets/121499055/9d4b3708-390c-47aa-9a24-7ac7c5fe49af
+
